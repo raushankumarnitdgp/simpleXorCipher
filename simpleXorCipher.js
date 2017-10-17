@@ -1,6 +1,6 @@
 //encrypting the string
 var encryptDecrypt = function(str) {
-    var key = 2317893;
+    var key = 2317893231789397;
     var cryptStr = '';
     var xorValue ;
     for(var i = 0; i<str.length; i++) {
@@ -10,5 +10,5 @@ var encryptDecrypt = function(str) {
     return cryptStr;
 }
 
-console.log(encryptDecrypt('xt-edge-1'));
-console.log(encryptDecrypt(encryptDecrypt('xt-edge-1')));
+console.log(encryptDecrypt('12344587457343448384'));
+console.log(encryptDecrypt(encryptDecrypt('132847938473897394734347')));
